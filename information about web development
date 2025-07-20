@@ -21,3 +21,10 @@ Backend processes it (e.g., checks credentials).
 Database is queried if needed.
 Response is sent back and displayed on the frontend.
 
+here some basic concepts in web development
+1. What Is a Browser?
+2. What Is Rendering?
+3. How Websites Work (Basic Flow)
+4. Frontend vs Backend
+5. Website Logic (Behind the Scenes)
+5. Website Logic (Behind the Scenes)
