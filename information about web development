@@ -1,0 +1,23 @@
+Web-Development: It’s everything involved in creating a website—from writing the code that makes it work to designing how it looks and behaves.
+ Types of Web Development
+
+1.Frontend Development (Client-Side)
+What the user sees and interacts with.
+Languages: HTML, CSS, JavaScript
+Frameworks: React, Vue, Angular
+
+2. Backend Development (Server-Side)
+Behind-the-scenes logic, databases, authentication, and APIs.
+Languages: Node.js, Python, PHP, Java
+Databases: MongoDB, MySQL, PostgreSQL
+
+3. Full Stack Development
+Combines both frontend and backend.
+A full stack developer can build a complete web application end-to-end.
+
+How It Works
+Frontend sends a request (e.g., login) from the browser.
+Backend processes it (e.g., checks credentials).
+Database is queried if needed.
+Response is sent back and displayed on the frontend.
+
