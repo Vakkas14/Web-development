@@ -1,0 +1,10 @@
+let a = "jhon";
+console.log(a);
+a = 10;
+console.log(a);
+a = 10.34;
+console.log(a);
+a = "Hammad";
+console.log(a);
+a = 10+20;
+console.log(a);

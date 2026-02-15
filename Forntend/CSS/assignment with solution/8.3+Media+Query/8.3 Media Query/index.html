@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- 
+TODO: Change the background color for each device
+[lightsalmon] Mobile Devices: 319px — 480px
+[powderblue] iPads and Tablets: 481px — 1200px
+[limegreen] Laptops: 1201px — 1600px
+[seagreen] Desktops: 1601px and more
+-->
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+  <title>Media Query</title>
+  <style>
+    body {
+      background-color: aquamarine;
+    }
+
+    @media (min-width: 319px) and (max-width: 480px) {
+      body {
+        background-color: lightsalmon;
+       
+      .box{
+        width: 80px;
+        height: 80px;
+      }
+        
+      }
+    }
+
+    @media (min-width: 481px) and (max-width: 1200px) {
+      body {
+        background-color: powderblue;
+        .box{
+          width: 150px;
+          height: 150px;
+        }
+      }
+    }
+    
+    @media (min-width: 1201px) and (max-width: 1600px) {
+      body {
+        background-color: limegreen;
+      .box{
+        width: 120px;
+        height: 120px;
+      }
+      
+    }
+  }
+
+    @media (min-width: 1601px) {
+      body {
+        background-color: seagreen;
+      .box{
+        width: 200px;
+        height: 200px;
+      }  
+      
+    }
+    }
+    
+  </style>
+</head>
+
+<body>
+  <div class="box" style="background-color: yellow; height: 100px; width: 100px; margin: 10px; "></div>
+  <div class="box" style="background-color: orange; height: 100px; width: 100px; margin: 10px;"></div>
+  <div class="box" style="background-color: red; height: 100px; width: 100px;margin: 10px;"></div>
+  <div class="box" style="background-color: blue; height: 100px; width: 100px;margin: 10px;"></div> 
+</body>
+
+</html>

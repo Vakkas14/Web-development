@@ -1,0 +1,24 @@
+/* Write your code here: */
+h1, h2{
+    color: blueviolet;
+}
+
+/* parent chlid selectors */
+.box > p{
+    color: firebrick;
+}
+
+/* desendent selectors */
+.box li{
+    color: blue;
+}
+
+/* chain selectors */
+li.done{
+    color: seagreen;
+}
+
+/* combining combiners selectors */
+body p.done{
+    font-size: 0.5rem;
+}
